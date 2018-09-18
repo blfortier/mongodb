@@ -1,0 +1,23 @@
+{
+  "name": "netninjaMongoDB",
+  "version": "1.0.0",
+  "description": "4.a.d MongoDB Tutorial Brittney Fortier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blfortier/netninja-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blfortier/netninja-mongodb/issues"
+  },
+  "homepage": "https://github.com/blfortier/netninja-mongodb#readme",
+  "dependencies": {
+    "mongoose": "^5.2.15"
+  }
+}
