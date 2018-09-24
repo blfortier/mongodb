@@ -10,6 +10,7 @@ describe('Saving records', function(){
         var char = new MarioChar({
             name: 'Mario'
         });
+        
        
        char.save().then(function(done){
            assert(char.isNew === false);
