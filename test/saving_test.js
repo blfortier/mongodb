@@ -1,6 +1,7 @@
 const assert = require('assert');
 const MarioChar = require('../models/mariochar');
 
+// Describe tests
 describe('Saving records', function(){
     
     // Create tests
@@ -14,8 +15,6 @@ describe('Saving records', function(){
            assert(char.isNew === false);
            done();
        });
-        
     });
-    
 });
 
