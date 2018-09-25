@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // ES6 Promises
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://test:test12@ds141671.mlab.com:41671/testaroo');
+mongoose.connect('mongodb://test:test12@ds141671.mlab.com:41671/testaroo', { useNewUrlParser: true });
 // Connect to the database before tests run
 before(function(done) {
     // connect to mongodb
